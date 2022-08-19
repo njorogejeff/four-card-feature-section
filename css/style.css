@@ -38,7 +38,7 @@ img {
 
 /* Four Card Feature Section Styles */
 .card__container {
-    margin: 6rem 2rem 4rem;
+    margin: 6rem 2rem 5rem;
 }
 .card__heading__one,
 .card__heading__two {
@@ -53,19 +53,22 @@ img {
     margin-bottom: 1.5rem;
 }
 .card__description {
-    font-size: .99rem;
+    font-size: .92rem;
+    font-weight: 400;
+    color: var(--grayish-blue);
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 .card__sections {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 .card {
     background-color: hsl(0, 0%, 100%);
     padding: 1.5rem 2rem;
     border-radius: 8px;
+    box-shadow: 0px 5px 9px -5px var(--grayish-blue);
 }
 .supervisor {
     border-top: 4px solid var(--cyan);
